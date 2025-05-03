@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FabNellore | www.fabnellore.shop - Fashion with a Modern Twist</title>
+  
+  <!-- SEO Meta -->
+  <meta name="description" content="Shop the best in ethnic and contemporary fashion for Women, Men, and Kids at www.fabnellore.shop – rooted in tradition, styled for today.">
+
+  <!-- Favicon (optional, if hosted) -->
+  <link rel="icon" href="https://www.fabnellore.shop/favicon.ico" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #ff5e62, #ff9966);
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      font-family: 'Playfair Display', serif;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    nav {
+      background: #4b0082;
+      padding: 1rem;
+      text-align: center;
+      position: relative;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1.5rem;
+      font-size: 1.2rem;
+      font-weight: 600;
+      transition: color 0.3s ease-in-out;
+    }
+
+    nav a:hover {
+      color: #ffd700;
+    }
+
+    .dropdown {
+      display: inline-block;
+      position: relative;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #4b0082;
+      min-width: 160px;
+      z-index: 1;
+      text-align: left;
+    }
+
+    .dropdown-content a {
+      padding: 12px 16px;
+      color: white;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #555;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+      border-bottom: 1px solid #ddd;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #ff5e62;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .section-bg-women {
+      background: #fff0f5;
+    }
+
+    .section-bg-men {
+      background: #e0f7fa;
+    }
+
+    .section-bg-kids {
+      background: #ffebee;
+    }
+
+    .products {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+
+    .product-card {
+      background: linear-gradient(135deg, #ffffff, #ffcccc);
+      border-radius: 12px;
+      padding: 1rem;
+      width: 250px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .product-card:hover {
+      transform: scale(1.05);
+    }
+
+    .product-card img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+
+    .product-card h3 {
+      color: #b22222;
+      font-size: 1.3rem;
+    }
+
+    .product-card p {
+      font-size: 1rem;
+      color: #666;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #ffd700;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>FabNellore</h1>
+    <p>Fashion with a Modern Twist, Rooted in Tradition</p>
+  </header>
+
+  <nav>
+    <a href="#home"><i class="fas fa-home"></i> Home</a>
+    <a href="#about"><i class="fas fa-info-circle"></i> About</a>
+    <div class="dropdown">
+      <a href="#women"><i class="fas fa-female"></i> Women</a>
+      <div class="dropdown-content">
+        <a href="#women">Sarees</a>
+        <a href="#women">Kurtis</a>
+        <a href="#women">Lehengas</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <a href="#men"><i class="fas fa-male"></i> Men</a>
+      <div class="dropdown-content">
+        <a href="#men">Kurtas</a>
+        <a href="#men">Casual Shirts</a>
+        <a href="#men">Dhotis</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <a href="#kids"><i class="fas fa-child"></i> Kids</a>
+      <div class="dropdown-content">
+        <a href="#kids">Pattu Pavadai</a>
+        <a href="#kids">Kurtas</a>
+        <a href="#kids">Daily Sets</a>
+      </div>
+    </div>
+    <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+  </nav>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p style="text-align:center;">At FabNellore, we blend heritage with contemporary styles to bring you the finest ethnic fashion. Our collection spans from handwoven sarees to modern casual wear, all crafted with love from Nellore.</p>
+  </section>
+
+  <!-- Women -->
+  <section id="women" class="section-bg-women">
+    <h2>Women's Collection</h2>
+    <p style="text-align:center;">Delicate designs for the modern woman who loves to celebrate tradition. Explore sarees, lehengas, and kurtis for every occasion.</p>
+    <div class="products">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250" alt="Silk Saree">
+        <h3>Silk Sarees</h3>
+        <p>Exquisite silk for celebrations and festive moments.</p>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250" alt="Kurtis">
+        <h3>Kurtis & Tops</h3>
+        <p>Comfortable yet stylish kurtis for daily wear.</p>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250" alt="Lehenga Sets">
+        <h3>Lehenga Sets</h3>
+        <p>Elegance with intricate embroidery for special events.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Men -->
+  <section id="men" class="section-bg-men">
+    <h2>Men's Collection</h2>
+    <p style="text-align:center;">For the stylish and traditional man. From ethnic kurtas to casual shirts, our collection combines comfort and elegance.</p>
+    <div class="products">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250" alt="Ethnic Kurta">
+        <h3>Ethnic Kurtas</h3>
+        <p>Perfect for festivals and special occasions.</p>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250" alt="Casual Shirts">
+        <h3>Casual Shirts</h3>
+        <p>Vibrant, easy-going shirts for your everyday wear.</p>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250" alt="Dhotis & Sets">
+        <h3>Dhotis & Sets</h3>
+        <p>Traditional comfort and style for all occasions.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kids -->
+  <section id="kids" class="section-bg-kids">
+    <h2>Kids' Collection</h2>
+    <p style="text-align:center;">Cute and comfy designs for the little ones. From festive dresses to daily wear, let your kids experience the charm of traditional fashion.</p>
+    <div class="products">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250" alt="Pattu Pavadai">
+        <h3>Pattu Pavadai</h3>
+        <p>Traditional silk and zari designs for little girls.</p>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250" alt="Kid’s Kurtas">
+        <h3>Kid’s Kurtas</h3>
+        <p>Comfortable, colorful kurtas for every celebration.</p>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/250" alt="Daily Sets">
+        <h3>Daily Sets</h3>
+        <p>Soft cotton outfits for everyday fun.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <p>
+      Visit us at <a href="https://www.fabnellore.shop" target="_blank">www.fabnellore.shop</a> |
+      Contact us at <a href="mailto:fabnellore@gmail.com">fabnellore@gmail.com</a> |
+      &copy; 2025 FabNellore
+    </p>
+  </footer>
+
+</body>
+</html>
